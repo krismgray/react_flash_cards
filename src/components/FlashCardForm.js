@@ -31,18 +31,18 @@ class FlashCardForm extends React.Component {
         </Form.Field>
         <br />
         <Form.Field>
-        <label>Back</label>
+        <label>Front</label>
         <input
-          name='back'
+          name='front'
           value={back}
           onChange={this.handleChange}
         />
         </Form.Field>
         <br />
         <Form.Field>
-        <label>Front</label>
+        <label>Back</label>
         <input
-          name='front'
+          name='back'
           value={front}
           onChange={this.handleChange}
         />
